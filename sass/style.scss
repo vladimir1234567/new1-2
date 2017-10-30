@@ -7,5 +7,10 @@ body {
 .wrapper {
   width: 100px;
   height: 500px;
-  background: red;
+  background: green;
+  border-bottom: 5px solid black;
+  margin: auto;
+    &:hover {
+      background: blue;
+    }
 }
